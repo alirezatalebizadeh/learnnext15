@@ -5,8 +5,8 @@ const UserItem = ({ params }: { params: { id: string } }) => {
     const { id } = params
     return (
         <div>
-            <h1>User Profile ;{id}</h1>
-
+            <h1>User Profile : {id}</h1>
+            <Link href={`/dashboard/users`}>users</Link>
         </div>
     )
 }
