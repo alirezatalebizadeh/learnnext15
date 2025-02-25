@@ -63,8 +63,8 @@ export default UserItem;
 ## لایه بندی
 
 <div class="grid grid-cols-3 gap-3 ">
-<img src="./readmeFiled/layout.PNG"/>
-<img src="./readmeFiled/layout2PNG.PNG"/>
-<img src="./readmeFiled/layout3PNG.PNG"/>
-<img src="./readmeFiled/layout4.PNG"/>
+<img src="./readmeFiled/layout.PNG" className="w-20"/>
+<img src="./readmeFiled/layout2PNG.PNG" className="w-20"/>
+<img src="./readmeFiled/layout3PNG.PNG" className="w-20"/>
+<img src="./readmeFiled/layout4.PNG" className="w-20"/>
 </div>
