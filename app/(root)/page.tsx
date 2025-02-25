@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hello from "./components/Hello"
+import Hello from "../components/Hello";
 
 export default function Home() {
   console.log("what am i doing here? -- Server/Client?");
