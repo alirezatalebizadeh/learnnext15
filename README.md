@@ -81,15 +81,6 @@ export default UserItem;
 </div>
 ---
 
-const Layout = ({ children }: { children: ReactNode }) => {
-return (
-<div>
-{children}
-</div>
-)
-}
-
-export default Layout
 children تمامی کامپوننت ها و پیج های توی فولدره dashboard هست.(users,analytics)
 
 
