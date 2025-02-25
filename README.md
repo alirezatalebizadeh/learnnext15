@@ -40,7 +40,11 @@ folder(dashboard)/folder(users)/folder([id])/page.jsx
 
 ---
 
-## 🔥 **کد نمونه برای صفحه داینامیک کاربر**
+اینجا یه نسخه مرتب‌تر و خواناتر از متن شما با **ساختار بهتر برای نمایش تصاویر** در README:  
+
+---
+
+# 🔥 **کد نمونه برای صفحه داینامیک کاربر**  
 
 ```tsx
 const UserItem = ({ params }: { params: { id: string } }) => {
@@ -55,16 +59,27 @@ const UserItem = ({ params }: { params: { id: string } }) => {
 
 export default UserItem;
 ```
-
-✅ در این کد، وقتی کاربر وارد مسیر **`/dashboard/users/[id]`** شود، مقدار `id` نمایش داده خواهد شد.
+✅ در این کد، وقتی کاربر وارد مسیر **`/dashboard/users/[id]`** شود، مقدار `id` نمایش داده خواهد شد.  
 
 ---
 
-## لایه بندی
+## 🎨 **لایه‌بندی (Layout)**  
 
-<div class="grid grid-cols-3 gap-3 ">
-<img src="./readmeFiled/layout.PNG" className="w-20"/>
-<img src="./readmeFiled/layout2PNG.PNG" className="w-20"/>
-<img src="./readmeFiled/layout3PNG.PNG" className="w-20"/>
-<img src="./readmeFiled/layout4.PNG" className="w-20"/>
+در این بخش، لایه‌بندی پروژه را مشاهده می‌کنید:  
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="./readmeFiled/layout.PNG" width="200"/></td>
+      <td align="center"><img src="./readmeFiled/layout2PNG.PNG" width="200"/></td>
+      <td align="center"><img src="./readmeFiled/layout3PNG.PNG" width="200"/></td>
+      <td align="center"><img src="./readmeFiled/layout4.PNG" width="200"/></td>
+    </tr>
+  </table>
 </div>
+
+📌 **این تصاویر نشان‌دهنده ساختار صفحات و لایه‌بندی پروژه هستند.**  
+
+---
+
+✔ **حالا README مرتب و خواناست! 🚀**
