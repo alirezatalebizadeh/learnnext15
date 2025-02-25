@@ -91,9 +91,10 @@ return (
 
 export default Layout
 children تمامی کامپوننت ها و پیج های توی فولدره dashboard هست.(users,analytics)
+![rootgroup](https://github.com/user-attachments/assets/61dc949f-6089-41f2-b6a9-e9e7b2b76460)
 
 
-بله، این ساختار مربوط به **Next.js** است و از قابلیت **Route Groups (گروه‌بندی مسیرها)** در **App Router** (که از نسخه 13 به بعد معرفی شده) استفاده می‌کند.
+ این ساختار مربوط به **Next.js** است و از قابلیت **Route Groups (گروه‌بندی مسیرها)** در **App Router** (که از نسخه 13 به بعد معرفی شده) استفاده می‌کند.
 
 ### توضیح ساختار:
 1. **(dashboard)** و **(root)** داخل پرانتز قرار دارند.  
