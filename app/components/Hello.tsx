@@ -1,14 +1,14 @@
-"use client"
 import React from 'react'
 
-const Hello = () => {
-    console.log("I.m a client component.hello component");
+const Hello = async () => {
 
     return (
-        <div>
-            hello
+        <div className=''>
+            Hello
         </div>
     )
 }
 
 export default Hello
+
+
