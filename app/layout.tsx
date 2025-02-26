@@ -13,8 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "آموزش نکست جی اس",
-  description: "آموزش نکست جی اس 15 |جی اس مستری",
+  title: {
+    default: "وب‌سایت من",
+    template: "%s | وب‌سایت من", // قالب برای تمام صفحات
+  },
+  description: "بهترین وب‌سایت برای یادگیری Next.js",
+  openGraph: {
+    title: "وب‌سایت من",
+    description: "آموزش Next.js با بهترین متدها",
+    url: "https://example.com",
+    siteName: "وب‌سایت من",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
